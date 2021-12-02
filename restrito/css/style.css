@@ -1,0 +1,101 @@
+body, 
+ul, 
+li, 
+p {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+	font-size: 1.2rem;
+	font-family: Arial;
+}
+.home{
+	text-align: center;
+	margin-top: 20px;
+}
+
+
+#oi {
+	font-size: 1.0rem;
+	font-family: Arial;
+	text-decoration: none;
+	color: white;
+	margin-left: 5px;
+}
+
+#btnn{
+	text-decoration: none;
+	color: white;
+	margin-top: 7px;
+}
+img{
+	width: 40px;
+}
+input[type="checkbox"]{
+	display: none;
+}
+
+
+.header{
+	background-color: #438eb9;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0px;
+
+
+}
+
+.menu{
+	text-decoration: none;
+	display: flex;
+}
+
+
+.menu li{
+	margin-left: 10px;
+}
+
+.menu li a {
+	display: block;
+	padding: 10px;
+}
+
+#navi  {
+	background-color: rgba(16, 16, 16,.5);
+	width: 200px;
+	height: 90.5%;
+	position: absolute;
+	transition: all .5s;
+}
+
+input[type="checkbox"]:checked ~ #navi{
+	
+}
+
+#meu-menu {
+	text-decoration: none;
+	display: block;
+	padding: 20px 5px;
+	color: white;
+}
+#meu-menu:hover{
+	background-color: rgba(176, 224, 230);
+	color: black;
+}
+#labell{
+	padding: 15px;
+	position: absolute;
+	z-index: 1;
+}
+#uli{
+	top: 70px;
+	position: absolute;
+	width: 100%;
+}
+
+
+
+
+
+
